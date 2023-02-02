@@ -1,0 +1,17 @@
+.main {}
+
+.option-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.question {
+    /* border: 1px solid yellow; */
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
