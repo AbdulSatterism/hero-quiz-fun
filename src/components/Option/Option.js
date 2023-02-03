@@ -4,7 +4,7 @@ import './Option.css'
 const Option = ({ option, handleCorrectAnswer }) => {
     // console.log(option)
     return (
-        <div className='option'>
+        <div className='option container'>
             <button onClick={(event) => handleCorrectAnswer(event)}> {option}</button>
 
         </div>

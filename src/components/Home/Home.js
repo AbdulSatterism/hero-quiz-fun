@@ -6,7 +6,7 @@ import './Home.css'
 const Home = () => {
     const quizTopics = useLoaderData().data;
     return (
-        <div className='quiz-container'>
+        <div className='quiz-container container'>
             {
                 quizTopics.map(quiz => <QuizTopic
                     key={quiz.id}

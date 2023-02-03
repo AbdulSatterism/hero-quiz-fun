@@ -1,8 +1,9 @@
 import { async } from 'q';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
-import Header from './components/Header/Header';
+import Blog from './components/Blog/Blog';
 import Home from './components/Home/Home';
+import QuizChart from './components/QuizChart/QuizChart';
 import QuizInfo from './components/QuizeInfo/QuizInfo';
 import Main from './Outlet/Main';
 
@@ -26,6 +27,14 @@ function App() {
           },
           element: <QuizInfo></QuizInfo>
         },
+        {
+          path: '/quizchart',
+          element: <QuizChart></QuizChart>
+        },
+        {
+          path: '/blog',
+          element: <Blog></Blog>
+        }
       ]
     },
   ]);
